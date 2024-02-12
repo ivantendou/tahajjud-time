@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tahajjud Time</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="css/app.css" />
+
+    <!-- Font Awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="navbar-container">
+        <div class="logo">
+            <p>Tahajjud Time</p>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav class="nav-list" id="nav-list">
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#guide">Panduan</a></li>
+                <li><a href="#article">Artikel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+
+            <div id="home" class="content-description">
+                <div class="description">
+                    <h1 class="title">Shalat Tahajjud Yuk!</h1>
+                    <p>
+                        Tahajjud Time adalah sebuah komunitas yang bertujuan untuk memotivasi kaum muslimin dan muslimat
+                        untuk melaksanakan shalat tahajud. Dengan kerbersamaan untuk mencapai tujuan dan pencatatan
+                        presensi harian shalat tahajud, para peserta bisa mendapatkan dorongan lebih untuk melaksanakan
+                        shalat tahajud.
+                    </p>
+                    <button> Klik untuk Bergabung dengan Tahajjud Time</button>
+                </div>
+            </div>
+            <article id="guide" class="card">
+                <h2>Panduan</h2>
+                <section>
+                    <h3>Ketentuan Rakaat dan Bacaan Shalat</h3>
+                    <p>Shalat Tahajud dapat dilakukan setelah bangun tidur di malam hari. Tidak ada batas maksimal
+                        jumlah
+                        rakaatnya. Hendaknya setiap malam tidak dikosongkan dari shalat Tahajjud, meskipun dua rakaat.
+                    </p>
+                    <p>Adapun bacaan surat setelah al-Fatihah dapat memilih surat mana saja dalam Al-Qur'an. Baik surat
+                        pendek maupun surat panjang. Namun menurut Al-Habib Abdullah Al-Haddad, hendaknya yang dibaca
+                        adalah
+                        Al-Qur'an mulai awal dan seterusnya, sehingga tiap bulan, tiap 40 hari, atau jangka waktu yang
+                        lebih
+                        banyak atau sedikit dari waktu tersebut orang dapat mengkhatamkan Al-Qur'an dalam shalat
+                        Tahajud,
+                        sesuai kadar kesemangatannya. Hal ini seiring firman Allah ﷻ:</p>
+                    <p id="arabic-text">فَاقْرَءُوا مَا تَيَسَّرَ مِنَ الْقُرْآنِ</p>
+                    <p>Artinya, “ … Maka bacalah apa yang mudah dari Al-Qur'an.” (QS al-Muzammil: 20). (Ad-Dimyathi,
+                        <i>Hâsyiyyah I'ânatuth Thâlibîn</i>, juz I, halaman 267).
+                    </p>
+                </section>
+                <section>
+                    <img src="img/shalat.jpg" alt="Shalat Tahajud" class="featured-image" />
+                    <h3>Tata Cara, Niat, dan Doa Shalat Tahajud</h3>
+                    <p>Shalat Tahajud dapat dilaksanakan sebagaimana shalat-shalat sunnah lainnya, yaitu dua rakaat
+                        salam sebagaimana berikut:</p>
+                    <ol>
+                        <li>
+                            <p>Mengucapkan niat shalat Tahajud:</p>
+                            <p id="arabic-text">أُصَلِّيْ سُنَّةَ التَهَجُّدِ رَكْعَتَيْنِ لِلّٰهِ تَعَالَى</p>
+                            <p><i>Ushallî sunnatat tahajjudi rak'ataini lillâhi ta'âlâ.</i></p>
+                            <p>Artinya, “Aku menyengaja shalat sunnah Tahajud dua rakaat karena Allah ta’ala.”</p>
+                        </li>
+                        <li>
+                            Niat dalam hati bersamaan <i>takbîratul ihrâm</i>, dan seterusnya sampai salam setelah dua
+                            rakaat.
+                        </li>
+                        <li>
+                            <p>Setelah salam atau selesai seluruh shalat kemudian membaca doa:</p>
+                            <p id="arabic-text">اَللهم رَبَّنَا لَكَ الْحَمْدُ أَنْتَ قَيِّمُ السَّمَوَاتِ وَاْلأَرْضِ
+                                وَمَنْ فِيْهِنَّ. وَلَكَ الْحَمْدُ أَنْتَ مَلِكُ السَّمَوَاتِ واْلأَرْضِ وَمَنْ
+                                فِيْهِنَّ. وَلَكَ الْحَمْدُ أَنْتَ نُوْرُ السَّمَوَاتِ وَاْلأَرْضِ وَمَنْ فِيْهِنَّ.
+                                وَلَكَ الْحَمْدُ أَنْتَ الْحَقُّ، وَوَعْدُكَ الْحَقُّ، وَلِقَاءُكَ حَقٌّ، وَقَوْلُكَ
+                                حَقٌّ، وَالْجَنَّةُ حَقٌّ، وَالنَّارُ حَقٌّ، وَالنَّبِيُّوْنَ حَقٌّ، وَمُحَمَّدٌ صَلَّى
+                                اللهُ عَلَيْهِ وَسَلَّمَ حَقٌّ، وَالسَّاعَةُ حَقٌّ. اَللهم لَكَ أَسْلَمْتُ، وَبِكَ
+                                آمَنْتُ، وَعَلَيْكَ تَوَكَّلْتُ، وَإِلَيْكَ أَنَبْتُ، وَبِكَ خَاصَمْتُ، وَإِلَيْكَ
+                                حَاكَمْتُ، فَاغْفِرْ لِيْ مَا قَدَّمْتُ وَمَا أَخَّرْتُ وَمَا أَسْرَرْتُ وَمَا
+                                أَعْلَنْتُ وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي. أَنْتَ الْمُقَدِّمُ وَأَنْتَ الْمُؤَخِّرُ
+                                لآ اِلَهَ إِلَّا أَنْتَ. وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ
+                            </p>
+                            <p>
+                                <i>Allâhumma rabbanâ lakal hamdu. Anta qayyimus samâwâti wal ardhi wa man fî hinna. Wa
+                                    lakal hamdu anta mâlikus samâwâti wal ardhi wa man fî hinna. Wa lakal hamdu anta
+                                    nûrus
+                                    samâwâti wal ardhi wa man fî hinna. Wa lakal hamdu antal haqq. Wa wa'dukal haqq. Wa
+                                    liqâ'uka haqq. Wa qauluka haqq. Wal jannatu haqq. Wan nâru haqq. Wan nabiyyûna haqq.
+                                    Wa
+                                    Muhammadun shallallâhu alaihi wasallama haqq. Was sâ'atu haqq. Allâhumma laka
+                                    aslamtu.
+                                    Wa bika âmantu. Wa 'alaika tawakkaltu. Wa ilaika anabtu. Wa bika khâshamtu. Wa
+                                    ilaika
+                                    hâkamtu. Fagfirlî mâ qaddamtu, wa mâ akhkhartu, wa mâ asrartu, wa mâ a'lantu, wa mâ
+                                    anta
+                                    a'lamu bihi minnî. Antal muqaddimu wa antal mu'akhkhiru. Lâ ilâha illâ anta. Wa lâ
+                                    haula, wa lâ quwwata illâ billâh.</i>
+                            </p>
+                            <p>
+                                Artinya, “Ya Allah, Tuhan kami, segala puji bagi-Mu, Engkau penegak langit, bumi, dan
+                                makhluk di dalamnya. Segala puji bagi-Mu, Engkau penguasa langit, bumi, dan makhluk di
+                                dalamnya. Segala puji bagi-Mu, Engkau cahaya langit, bumi, dan makhluk di dalamnya.
+                                Segala puji bagi-Mu, Engkau Maha Benar. Janji-Mu benar. Pertemuan dengan-Mu kelak itu
+                                benar. Firman-Mu benar adanya. Surga itu nyata. Neraka pun demikian. Para nabi itu
+                                benar. Demikian pula Nabi Muhammad ﷺ itu benar. Hari Kiamat itu benar. Ya Tuhanku, hanya
+                                kepada-Mu aku berserah. Hanya kepada-Mu juga aku beriman. Kepada-Mu aku pasrah. Hanya
+                                kepada-Mu aku kembali. Karena-Mu aku rela bertikai. Hanya pada-Mu dasar putusanku.
+                                Karenanya ampuni dosaku yang telah lalu dan yang terkemudian, dosa yang kusembunyikan
+                                dan yang kunyatakan, dan dosa lain yang lebih Kau ketahui ketimbang aku. Engkau Yang
+                                Maha Terdahulu dan Engkau Yang Maha Terkemudian. Tiada Tuhan selain Engkau. Tiada daya
+                                upaya dan kekuatan selain pertolongan Allah.” Doa ini dianjurkan dibaca seusai shalat
+                                tahajud. Doa Rasulullah ﷺ ini diriwayatkan oleh Imam al-Bukhari dan Muslim.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+            </article>
+            <article id="article" class="card">
+                <h2>Artikel</h2>
+                <img src="img/shalat2.jpg" alt="Shalat Tahajud" class="featured-image" />
+                <h3>Keistimewaan Mendirikan Salat Tahajud dengan Rutin</h3>
+                <ol>
+                    <li>
+                        <p>Penghapus dan Pencegah Dosa</p>
+                        <p>
+                            Setiap orang pasti memiliki dosa. Dosa-dosa yang kecil bisa berguguran dengan menjalankan
+                            salat sunah ini sebagaimana hadis di atas.
+                        </p>
+                        <p>
+                            Istimewanya, salat tahajud juga bisa mencegah seseorang dari perbuatan dosa. Orang yang
+                            melazimkan tahajud akan mendapatkan taufik dari Allah Subhanahu wa Ta'ala sehingga dirinya
+                            terjauhkan dari maksiat dan dosa.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Menenangkan Hati</p>
+                        <p>Al-'Allamah Ibnul Qayyim rahimahullah mengatakan:</p>
+                        <p>
+                            "Cobalah renungkan bagaimana Allah membalas salat malam yang mereka lakukan secara sembunyi
+                            dengan balasan yang Ia sembunyikan bagi mereka, yakni yang tidak diketahui oleh semua jiwa.
+                            Juga bagaimana Allah membalas rasa gelisah, takut, dan gundah gulana mereka di atas tempat
+                            tidur saat bangun untuk melakukan salat malam dengan kesenangan jiwa di dalam surga."
+                        </p>
+                    </li>
+                    <li>
+                        <p>Dipelihara oleh Allah dari Segala Macam Bencana</p>
+                        <p>
+                            Rasulullah saw. bersabda: "Barang siapa melaksanakan salat tahajud dengan sebaik-baiknya,
+                            dan dengan tata tertib yang rapi maka Allah Swt. akan memberikan sembilan macam kemuliaan:
+                            lima macam di dunia dan empat macam di akhirat."
+                        </p>
+                        <p>
+                            Adapun lima keutamaan di dunia itu adalah akan dipelihara oleh Allah Swt. dari segala macam
+                            bencana, tanda ketaatannya akan tampak kelihatan di mukanya, akan dicintai para hamba Allah
+                            yang saleh dan dicintai oleh semua manusia, lidahnya akan mampu mengucapkan kata-kata yang
+                            mengandung hikmah dan akan dijadikan orang bijaksana, yakni diberi pemahaman dalam agama."
+                        </p>
+                    </li>
+                </ol>
+            </article>
+        </div>
+
+        <aside>
+            <article class="card">
+                <img src="img/me.jpg" alt="Foto Admin" class="profile-image">
+                <p><i>"Komunitas Tahajjud Time membantu aku konsisten dalam mengerjakan shalat tahajud, anggotanya
+                        saling support itu mendorong motivasi banget sih buat aku"</i></p>
+                <p><b>- Ivan (anggota komunitas Tahajjud Time)</b></p>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Tahajjud Time | &#169; 2024</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("nav-list");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
